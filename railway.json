@@ -5,5 +5,8 @@
     },
     "deploy": {
         "startCommand": "python sistema_psicologia/manage.py migrate && python sistema_psicologia/manage.py collectstatic --noinput && gunicorn sistema_psicologia.wsgi"
+    },
+    "env": {
+        "DJANGO_SETTINGS_MODULE": "sistema_psicologia.settings"
     }
 }
