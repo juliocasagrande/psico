@@ -4,6 +4,6 @@
         "builder": "NIXPACKS"
     },
     "deploy": {
-        "startCommand": "python sistema_psicologia/manage.py migrate && python sistema_psicologia/manage.py collectstatic --noinput && gunicorn sistema_psicologia.wsgi",
+        "startCommand": "python sistema_psicologia/manage.py migrate && python sistema_psicologia/manage.py collectstatic --noinput && gunicorn sistema_psicologia.wsgi"
     }
 }
